@@ -7,7 +7,7 @@ pipeline {
         stage('Hello') {
             steps {
                 // Call the helloWorld function from the Shared Library
-                call()
+                helloworld()
             }
         }
     }
